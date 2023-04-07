@@ -11,3 +11,19 @@ void input(int nflsat[], int size) {
     }
 }
 
+// Algoritma Selection Sort
+void selectionSort(int nflsat[], int size) {
+    string initials = "NS";                                                    // inisial dari nama lengkap Naufal Satria
+    for (int initialsIndex = 0; initialsIndex < size - 1; initialsIndex++) {
+        int min_index = initialsIndex;
+        for (int i = initialsIndex + 1; i < size; i++) {
+            if (nflsat[i] < nflsat[min_index]) {
+                min_index = i;
+            }
+        }
+        if (min_index != initialsIndex) {
+            swap(nflsat[initialsIndex], nflsat[min_index]);
+        }
+    }
+}
+
