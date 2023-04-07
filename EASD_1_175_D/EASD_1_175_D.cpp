@@ -1,3 +1,6 @@
+// 1. Algoritma mempermudah dalam memecahkan segala permasalahan yang berkaitan dengan suatu program dan tidak dapat diselesaikan dengan mudah.
+
+
 #include <iostream>
 #include <string>
 using namespace std;
