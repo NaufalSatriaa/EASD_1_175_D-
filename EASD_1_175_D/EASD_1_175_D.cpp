@@ -47,7 +47,7 @@ void display(int nflsat[], int size) {
 
 // Mengeksekusi Progam Selection Sort
 int main() {
-    int size = 95;
+    int size = 95; //= sum 75+20-2x15+10+20
     int nflsat[35];
 
     input(nflsat, size);
