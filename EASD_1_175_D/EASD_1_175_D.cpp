@@ -1,6 +1,9 @@
 // 1. Algoritma mempermudah dalam memecahkan segala permasalahan yang berkaitan dengan suatu program dan tidak dapat diselesaikan dengan mudah.
 // 2. Statis dan dinamis.
 // 3. Ada output, efektifitas dan efisiensi, jumlah langkahnya berhingga, (semi algoritma) berakhir dan terstruktur.
+// 4. Algoritma Quicksort. Kelebihan dari algoritma ini adalah kinerjanya yang sangat cepat dibanding algoritma pengurutan data lainnya, bahkan untuk data yang berukuran besar. 
+//Quicksort memanfaatkan metode divide and conquer yang memungkinkan untuk mengurangi kompleksitas waktu secara drastis. 
+//Oleh karena itu, quicksort lebih efisien dan mudah diimplementasikan untuk data berukuran besar.
 
 #include <iostream>
 #include <string>
