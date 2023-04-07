@@ -4,6 +4,8 @@
 // 4. Algoritma Quicksort. Kelebihan dari algoritma ini adalah kinerjanya yang sangat cepat dibanding algoritma pengurutan data lainnya, bahkan untuk data yang berukuran besar. 
 //Quicksort memanfaatkan metode divide and conquer yang memungkinkan untuk mengurangi kompleksitas waktu secara drastis. 
 //Oleh karena itu, quicksort lebih efisien dan mudah diimplementasikan untuk data berukuran besar.
+// 5. Quadratic : Bubblesort, Selectionsort, Insertionsort, dan Shellsort.
+//Loglinear : Quicksort dan Mergesort
 
 #include <iostream>
 #include <string>
