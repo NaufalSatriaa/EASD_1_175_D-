@@ -3,17 +3,17 @@
 using namespace std;
 
 // Menginputkan Prosedur
-void input(int arr[], int size) {
+void input(int nflsat[], int size) {
     cout << "Masukkan " << size << " Elemen Array :" << endl;
     for (int i = 0; i < size; i++) {
         cout << "Masukkan elemen ke-" << i + 1 << " dari " << size << " elemen array:";
-        cin >> arr[i];
+        cin >> nflsat[i];
     }
 }
 
 // Algoritma Selection Sort
 void selectionSort(int arr[], int size) {
-    string initials = "AM";                                                    // inisial dari nama lengkap saya [Abdullah Maajid]
+    string initials = "NS";                                                    // inisial dari nama lengkap Naufal Satria
     for (int initialsIndex = 0; initialsIndex < size - 1; initialsIndex++) {
         int min_index = initialsIndex;
         for (int i = initialsIndex + 1; i < size; i++) {
@@ -28,24 +28,24 @@ void selectionSort(int arr[], int size) {
 }
 
 // Menampilkan Prosedur
-void display(int arr[], int size) {
+void display(int nflsat[], int size) {
     cout << "Array yang telah diurutkan : ";
     for (int i = 0; i < size; i++) {
-        cout << arr[i] << " ";
+        cout << nflsat[i] << " ";
     }
     cout << endl;
 }
 
 // Mengeksekusi Progam Selection Sort
 int main() {
-    int size = 50;   // 60                   
-    int arr[35];
+    int size = 5;   // 60                   
+    int nflsat[35];
 
-    input(arr, size);
+    input(nflsat, size);
 
-    selectionSort(arr, size);
+    selectionSort(nflsat, size);
 
-    display(arr, size);
+    display(nflsat, size);
 
     return 0;
 }
