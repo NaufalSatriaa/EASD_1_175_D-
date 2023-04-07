@@ -27,3 +27,12 @@ void selectionSort(int nflsat[], int size) {
     }
 }
 
+// Menampilkan Prosedur
+void display(int nflsat[], int size) {
+    cout << "Array yang telah diurutkan : ";
+    for (int i = 0; i < size; i++) {
+        cout << nflsat[i] << " ";
+    }
+    cout << endl;
+}
+
