@@ -36,3 +36,16 @@ void display(int nflsat[], int size) {
     cout << endl;
 }
 
+// Mengeksekusi Progam Selection Sort
+int main() {
+    int size = 95;
+    int nflsat[35];
+
+    input(nflsat, size);
+
+    selectionSort(nflsat, size);
+
+    display(nflsat, size);
+
+    return 0;
+}
